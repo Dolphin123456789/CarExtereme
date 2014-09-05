@@ -105,10 +105,10 @@ box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
     left:0px;
 }
 #Arabalar{
-    width:580px;
-    height:70px;
+    width:1000px;
+    height:80px;
     position: absolute;
-    top:0px;
+    top:15px;
     left:0px;
 }
 #araba1 {
@@ -148,7 +148,7 @@ box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
 #araba2:hover {
     width:165px;
     height:68px;
-    background:url(http://i.hizliresim.com/bQoXym.png) repeat 168px;
+    background:url(http://i.hizliresim.com/bQoXym.png) repeat 165px;
     -webkit-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
@@ -169,27 +169,34 @@ box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
 #araba3:hover {
     width:165px;
     height:68px;
-    background:url(http://i.hizliresim.com/X2z1d5.png) repeat 168px;
-    -webk9t-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
+    background:url(http://i.hizliresim.com/X2z1d5.png) repeat 165px;
+    -webkit-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
 }
 
 #arabaSpecial{
-    display:none;
     width:165px;
     height:68px;
-    background:url(http://i.hizliresim.com/onMWNq.png);
-    position:absolute;
+    background:url(http://i.hizliresim.com/rYln67.png);
+	background-color: #b1b1b1;
      position:absolute;
-    top:150px;
-    left:220px;
+    top:0px;
+    left:600px;
     border:2px solid white;
+	 -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
-
+#arabaSpecial:hover{
+   -webkit-box-shadow: inset 0px 0px 16px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 16px 1px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 16px 1px rgba(0,0,0,0.75);
+}
 #engel {
-    width:70px;
-    height:70px;
+    width:50px;
+    height:50px;
      background:#870000;
     position:absolute;
     top:100px;
@@ -425,29 +432,45 @@ top:20px;
 left:0px;
 }
 #sliderContainer{
-    width:600px;
-    height:15px;
-    background:blue;
-    position:absolute;
-    top:402px;
-    left:0px;
-    border:2px solid black;
+   width: 600px;
+height: 15px;
+position: absolute;
+top: 402px;
+left: 0px;
+border: 2px solid rgb(146, 45, 40);
+background: rgba(239,197,202,1);
+background: -moz-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(209,164,75,1) 17%, rgba(250,167,65,1) 70%, rgba(209,164,75,1) 91%, rgba(241,142,153,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(239,197,202,1)), color-stop(17%, rgba(209,164,75,1)), color-stop(70%, rgba(250,167,65,1)), color-stop(91%, rgba(209,164,75,1)), color-stop(100%, rgba(241,142,153,1)));
+background: -webkit-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(209,164,75,1) 17%, rgba(250,167,65,1) 70%, rgba(209,164,75,1) 91%, rgba(241,142,153,1) 100%);
+background: -o-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(209,164,75,1) 17%, rgba(250,167,65,1) 70%, rgba(209,164,75,1) 91%, rgba(241,142,153,1) 100%);
+background: -ms-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(209,164,75,1) 17%, rgba(250,167,65,1) 70%, rgba(209,164,75,1) 91%, rgba(241,142,153,1) 100%);
+background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(209,164,75,1) 17%, rgba(250,167,65,1) 70%, rgba(209,164,75,1) 91%, rgba(241,142,153,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99', GradientType=1 );
+border-radius: 0px 0px 38px 38px;
+-moz-border-radius: 0px 0px 38px 38px;
+-webkit-border-radius: 0px 0px 38px 38px;
 }
 #sliderPo{
-    width:15px;
-    height:15px;
-    background:red;
-    position:absolute;
-    top:0px;
-    left:0px;
+  width: 15px;
+height: 14px;
+background: rgb(255, 247, 247);
+position: absolute;
+border: 2px solid #7C7777;
+top: 0px;
+left: 0px;
+border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+-webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
 }
 #container{
-width:600px;
-height:100px;
-background:green;
-    border:2px solid black;
-    position:absolute;
-top:300px;
-    left:0px;
-    overflow:hidden;
+width: 600px;
+height: 100px;
+border: 2px solid black;
+position: absolute;
+top: 300px;
+left: 0px;
+overflow: hidden;
 }

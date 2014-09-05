@@ -18,7 +18,17 @@ $(document).ready(function () {
     if( Code.val() == localStorage.getItem("hediye"))
     {
         $('#arabaSpecial').fadeIn(500).css({
-            'display':'inline'
+				'background':'url(http://i.hizliresim.com/onMWNq.png)',
+				'background-color':'none',
+				'-webkit-box-shadow': '0px 0px 0px 0px rgba(0, 0, 0, 0.75)',
+				'-moz-box-shadow': '0px 0px 0px 0px rgba(0, 0, 0, 0.75)',
+				'box-shadow': '0px 0px 0px 0px rgba(0, 0, 0, 0.75)'
+        });
+		$('#arabaSpecial:hover').css({
+				'-webkit-box-shadow': '0px 0px 28px 0px rgba(0, 0, 0, 0.75)',
+				'-moz-box-shadow': '0px 0px 28px 0px rgba(0, 0, 0, 0.75)',
+				'box-shadow': '0px 0px 0px 28px rgba(0, 0, 0, 0.75)',
+				 'background':'url(http://i.hizliresim.com/onMWNq.png) repeat 165px'
         });
     }  
     });    
@@ -37,7 +47,18 @@ $('#canvas2').css({ 'background':'url(http://i.hizliresim.com/nYqByB.jpg)'});
         $('#karartek').css({
 'display':'inline'
 });
-	
+$('#NightinGale').css({
+	'border': '2px solid black'
+	});
+	$('#SandPudding').css({
+	'border': '2px solid white'
+	});
+	$('#VarsayilanArkaplan').css({
+	'border': '2px solid white'
+	});
+	$('#SnowWhite').css({
+	'border': '2px solid white'
+	});
 });
 $('#SandPudding').click(function(){
 
@@ -49,6 +70,18 @@ $('#canvas2').css({'background':'url(http://i.hizliresim.com/vYB1Gv.jpg)'});
         $('#karartek').css({
 'display':'none'
 });
+$('#NightinGale').css({
+	'border': '2px solid white'
+	});
+	$('#SandPudding').css({
+	'border': '2px solid black'
+	});
+	$('#VarsayilanArkaplan').css({
+	'border': '2px solid white'
+	});
+	$('#SnowWhite').css({
+	'border': '2px solid white'
+	});
 });
     $('#VarsayilanArkaplan').click(function(){
 
@@ -61,6 +94,18 @@ $('#canvas2').css({'background':'url(http://i.hizliresim.com/q9a1Jd.jpg)'});
     $('#karartek').css({
 'display':'none'
 });
+$('#NightinGale').css({
+	'border': '2px solid white'
+	});
+	$('#SandPudding').css({
+	'border': '2px solid white'
+	});
+	$('#VarsayilanArkaplan').css({
+	'border': '2px solid black'
+	});
+	$('#SnowWhite').css({
+	'border': '2px solid white'
+	});
 });
    $('#SnowWhite').click(function(){
 
@@ -75,6 +120,18 @@ $('#canvas2').css({'background':'url(http://i.hizliresim.com/nY897R.jpg)  '});
     $('#karartek').css({
 'display':'none'
 });   
+$('#NightinGale').css({
+	'border': '2px solid white'
+	});
+	$('#SandPudding').css({
+	'border': '2px solid white'
+	});
+	$('#VarsayilanArkaplan').css({
+	'border': '2px solid white'
+	});
+	$('#SnowWhite').css({
+	'border': '2px solid black'
+	});
 });
 
    
@@ -164,7 +221,6 @@ $('#canvas2').css({'background':'url(http://i.hizliresim.com/nY897R.jpg)  '});
             /*EGER PUAN KACIRIRSA*/
             if ($('#puan').position().left < -25) {
                 var puanY = (Math.random() * ($('#canvas').height() - puan.height())).toFixed();
-
                 puan.css({
                     'position': 'absolute',
                         'left': '1000' + 'px'
@@ -174,7 +230,6 @@ $('#canvas2').css({'background':'url(http://i.hizliresim.com/nY897R.jpg)  '});
                         'top': puanY + 'px'
                 });
             }
-
             PuanSet = setTimeout(function () {
                 PuanAnimate();
             }, 1);
@@ -330,7 +385,6 @@ $('#canvas2').css({'background':'url(http://i.hizliresim.com/nY897R.jpg)  '});
                       sliderAnimate++;
                   }
                   sliderPos= $("#sliderPo").position().left;
-              $('#result').text(sliderPos);
                   $('#Arabalar').css({
                       left:(-1)*sliderPos+'px'
                   });
@@ -377,6 +431,9 @@ $('#canvas2').css({'background':'url(http://i.hizliresim.com/nY897R.jpg)  '});
         $('#araba3').css({
             'border': '2px solid white'
         });
+		 $('#arabaSpecial').css({
+            'border': '2px solid white'
+        });
     });
     $('#araba2').click(function () {
         $('#oyuncu').css({
@@ -391,6 +448,9 @@ $('#canvas2').css({'background':'url(http://i.hizliresim.com/nY897R.jpg)  '});
         $('#araba3').css({
             'border': '2px solid white'
         });
+		 $('#arabaSpecial').css({
+            'border': '2px solid white'
+        });
     });
     $('#araba3').click(function () {
         $('#oyuncu').css({
@@ -403,6 +463,9 @@ $('#canvas2').css({'background':'url(http://i.hizliresim.com/nY897R.jpg)  '});
             'border': '2px solid white'
         });
         $('#araba1').css({
+            'border': '2px solid white'
+        });
+		 $('#arabaSpecial').css({
             'border': '2px solid white'
         });
     });
