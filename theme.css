@@ -1,0 +1,453 @@
+#canvas2 {
+    display:none;
+    width:1000px;
+    height:150px;
+    background: url(http://i.hizliresim.com/q9a1Jd.jpg) repeat -20px 0;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+#canvas {
+    display:none;
+    width:1000px;
+    height:350px;
+    background: url(http://i.hizliresim.com/q9a1Jd.jpg) repeat -20px -150px;
+    position:absolute;
+    top: 150px;
+    left: 0px;
+    border-bottom:2px solid black;
+    overflow:hidden;
+}
+#oyuncu {
+    width:165px;
+    height:68px;
+    background:url(http://i.hizliresim.com/jzbOan.png);
+    position:absolute;
+    top:0px;
+    left:25px;
+	-webkit-transition: all 0.4 ease-in-out;
+    -moz-transition: all 0.2 ease-in-out;
+    -o-transition: all 0.2 ease-in-out;
+    transition: all 0.4 ease-in-out;
+}
+.tekerlek1 {
+    background:url(http://i.hizliresim.com/2vz3Rj.png);
+    width:30px;
+    height:30px;
+    position: absolute;
+    top: 46px;
+    left: 14px;
+}
+.tekerlek2 {
+    background:url(http://i.hizliresim.com/2vz3Rj.png);
+    width:30px;
+    height:30px;
+    position: absolute;
+    top: 46px;
+    left: 114px;
+}
+.tekerlekSpecial1{
+     background:url(http://i.hizliresim.com/2vz3Rj.png);
+    width:30px;
+    height:30px;
+    position: absolute;
+    top: 46px;
+    left: 114px; 
+}
+.tekerlekSpecial2{
+     background:url(http://i.hizliresim.com/2vz3Rj.png);
+    width:30px;
+    height:30px;
+    position: absolute;
+    top: 46px;
+    left: 114px; 
+}
+
+#PuanAlan {
+    opacity:0;
+    position:Absolute;
+    top: 149px;
+    background:blue;
+    width:1000px;
+    height:520px;
+}
+#puan {
+    width:10px;
+    height:10px;
+    background:cyan;
+    position:absolute;
+    top:200px;
+    left:900px;
+    -webkit-box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
+}
+#b1 {
+    position:absolute;
+    top:70px;
+    left:0px;
+}
+#secim {
+    display:run-in;
+    width:800px;
+    height:570px;
+    background: rgba(186, 162, 120, 1);
+    background: -moz-linear-gradient(top, rgba(186, 162, 120, 1) 0%, rgba(199, 172, 122, 1) 32%, rgba(196, 168, 115, 1) 61%, rgba(251, 223, 147, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(186, 162, 120, 1)), color-stop(32%, rgba(199, 172, 122, 1)), color-stop(61%, rgba(196, 168, 115, 1)), color-stop(100%, rgba(251, 223, 147, 1)));
+    background: -webkit-linear-gradient(top, rgba(186, 162, 120, 1) 0%, rgba(199, 172, 122, 1) 32%, rgba(196, 168, 115, 1) 61%, rgba(251, 223, 147, 1) 100%);
+    background: -o-linear-gradient(top, rgba(186, 162, 120, 1) 0%, rgba(199, 172, 122, 1) 32%, rgba(196, 168, 115, 1) 61%, rgba(251, 223, 147, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(186, 162, 120, 1) 0%, rgba(199, 172, 122, 1) 32%, rgba(196, 168, 115, 1) 61%, rgba(251, 223, 147, 1) 100%);
+    background: linear-gradient(to bottom, rgba(186, 162, 120, 1) 0%, rgba(199, 172, 122, 1) 32%, rgba(196, 168, 115, 1) 61%, rgba(251, 223, 147, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#baa278', endColorstr='#fbdf93', GradientType=0);
+    border:2px solid black;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#Arabalar{
+    width:580px;
+    height:70px;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+#araba1 {
+    width:165px;
+    height:68px;
+    background:url(http://i.hizliresim.com/d4VdXp.png);
+    position:absolute;
+    top:0px;
+    left:0px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border:2px solid white;
+}
+#araba1:hover {
+    width:165px;
+    height:68px;
+    background:url(http://i.hizliresim.com/d4VdXp.png) repeat 165px;
+    -webkit-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
+}
+#araba2 {
+    width:165px;
+    height:68px;
+    background:url(http://i.hizliresim.com/bQoXym.png);
+    position:absolute;
+    top:0px;
+    left:200px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border:2px solid white;
+}
+#araba2:hover {
+    width:165px;
+    height:68px;
+    background:url(http://i.hizliresim.com/bQoXym.png) repeat 168px;
+    -webkit-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
+}
+#araba3 {
+    width:165px;
+    height:68px;
+    background:url(http://i.hizliresim.com/X2z1d5.png);
+    position:absolute;
+    top:0px;
+    left:400px;
+    -webkit-transition: all 0.s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border:2px solid white;
+}
+#araba3:hover {
+    width:165px;
+    height:68px;
+    background:url(http://i.hizliresim.com/X2z1d5.png) repeat 168px;
+    -webk9t-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
+}
+
+#arabaSpecial{
+    display:none;
+    width:165px;
+    height:68px;
+    background:url(http://i.hizliresim.com/onMWNq.png);
+    position:absolute;
+     position:absolute;
+    top:150px;
+    left:220px;
+    border:2px solid white;
+}
+
+#engel {
+    width:70px;
+    height:70px;
+     background:#870000;
+    position:absolute;
+    top:100px;
+    left:900px;
+	border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+    -webkit-box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
+}
+#TheEnd {
+    -webkit-box-shadow: inset -3px -12px 170px 8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset -3px -12px 170px 8px rgba(0, 0, 0, 0.75);
+    box-shadow: inset -3px -12px 170px 8px rgba(0, 0, 0, 0.75);
+    display:none;
+    opacity:0.8;
+    width:400px;
+    height:300px;
+    background: green;
+    border:2px solid red;
+    position:absolute;
+    top: 100px;
+    left:250px;
+    text-align:center;
+}
+#TheEnd li {
+    font-size:30px;
+    list-style-type: none;
+}
+#fuel {
+    width:20px;
+    height:100px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    border:2px solid black;
+    overflow:hidden;
+}
+#fuel li {
+    width:20px;
+    height:100px;
+    background:red;
+    position:absolute;
+    top:0px;
+    left:0px;
+    -webkit-box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
+    list-style:none;
+}
+#Code{
+    position:absolute;
+    top:0px;
+    left:0px;
+    border:1px solid black;
+    
+}
+#karart{
+    display:none;
+    opacity:0.9;
+    width:800px;
+    height:520px;
+    position: absolute;
+    top:0px;
+    left:0px;
+	-webkit-box-shadow: inset -20px -225px 21px 232px rgba(0,0,0,1);
+	-moz-box-shadow: inset -20px -225px 21px 232px rgba(0,0,0,1);
+	box-shadow: inset -20px -225px 21px 232px rgba(0,0,0,1);
+	 -webkit-transition: all 0.4 ease-in-out;
+    -moz-transition: all 0.4 ease-in-out;
+    -o-transition: all 0.4 ease-in-out;
+    transition: all 0.4 ease-in-out;
+}
+#karartek{
+	display:none;
+    opacity:0.9;
+    width:200px;
+    background:black;
+    height:370px;
+    position:absolute;
+    top:0px;
+	left:800px;
+}
+#harita{
+     width:501px;
+    height:200px;
+        position:absolute;
+    top:0px;
+    left:0px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#harita div{
+    font-family:Comic Sans MS;
+    font-size:30px;
+    text-align:center;
+    color:white;
+
+}
+
+#NightinGale {
+    width:200px;
+    height:140px;
+    background:url(http://i.hizliresim.com/nYqByB.jpg);
+    border:2px solid white;
+      -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+
+}
+#NightinGale:hover{
+    width:500px;
+    background-position: -700px 0px;
+       -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border:2px solid black;
+}
+#SandPudding {
+     width:200px;
+    height:140px;
+    background:url(http://i.hizliresim.com/vYB1Gv.jpg) repeat 0px 520px;
+    border:2px solid white;
+      -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+        -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: red;
+
+}
+
+     
+#SandPudding:hover{
+     width:500px;
+background-position: -700px 520px;  
+          -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border:2px solid black;
+}
+#VarsayilanArkaplan {
+     width:200px;
+    height:140px;
+    background:url(http://i.hizliresim.com/q9a1Jd.jpg) repeat 0px 520px;
+    border:2px solid white;
+      -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+        -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: green;
+}
+#VarsayilanArkaplan:hover{
+    width:500px;
+	background-position: -700px 520px;  
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border:2px solid black;
+}
+#SnowWhite {
+     width:200px;
+    height:140px;
+    background:url(http://i.hizliresim.com/DoZnV3.png) repeat 0px 520px;
+    border:2px solid white;
+      -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+        -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: green;
+}
+#SnowWhite:hover{
+    width:500px;
+	background-position: -700px 520px;  
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border:2px solid black;
+}
+#SecimButtons{
+    width:190px;
+    height:100px;
+    border:2px solid white;
+    position:absolute;
+    top:450px;
+}
+
+.oyuncuBorder{
+  width:165px;
+    height:68px;
+border:2px solid red;
+}
+#result{
+color:white;
+font-size:20px;
+ -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+#Deneme{
+ width:200px;
+    height:140px;
+    background:blue;
+    border:2px solid white;
+      -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+        -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: green;
+}
+#blizzard{
+display:none;
+opacity:0.3;
+width:2000px;
+height:420px;
+background:url(http://i.hizliresim.com/vY1Vav.png);
+position:absolute;
+top:20px;
+left:0px;
+}
+#sliderContainer{
+    width:600px;
+    height:15px;
+    background:blue;
+    position:absolute;
+    top:402px;
+    left:0px;
+    border:2px solid black;
+}
+#sliderPo{
+    width:15px;
+    height:15px;
+    background:red;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#container{
+width:600px;
+height:100px;
+background:green;
+    border:2px solid black;
+    position:absolute;
+top:300px;
+    left:0px;
+    overflow:hidden;
+}
