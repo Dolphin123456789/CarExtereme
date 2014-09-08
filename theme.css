@@ -1,3 +1,23 @@
+body{
+width:1000px;
+height:1000px;
+background: rgba(250,233,192,1);
+background: -moz-linear-gradient(top, rgba(250,233,192,1) 0%, rgba(222,176,106,1) 52%, rgba(245,226,182,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250,233,192,1)), color-stop(52%, rgba(222,176,106,1)), color-stop(100%, rgba(245,226,182,1)));
+background: -webkit-linear-gradient(top, rgba(250,233,192,1) 0%, rgba(222,176,106,1) 52%, rgba(245,226,182,1) 100%);
+background: -o-linear-gradient(top, rgba(250,233,192,1) 0%, rgba(222,176,106,1) 52%, rgba(245,226,182,1) 100%);
+background: -ms-linear-gradient(top, rgba(250,233,192,1) 0%, rgba(222,176,106,1) 52%, rgba(245,226,182,1) 100%);
+background: linear-gradient(to bottom, rgba(250,233,192,1) 0%, rgba(222,176,106,1) 52%, rgba(245,226,182,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fae9c0', endColorstr='#f5e2b6', GradientType=0 );
+}
+#all{
+    position:fixed;
+	top:10px;
+	left:200px;
+	-webkit-box-shadow: 0px 0px 33px 6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 33px 6px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 33px 6px rgba(0,0,0,0.75);
+}
 #canvas2 {
     display:none;
     width:1000px;
@@ -81,6 +101,10 @@
     -webkit-box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
 -moz-box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
 box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
+border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 0px solid #000000;
 }
 #b1 {
     position:absolute;
@@ -91,33 +115,29 @@ box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
     display:run-in;
     width:800px;
     height:570px;
-    background: rgba(186, 162, 120, 1);
-    background: -moz-linear-gradient(top, rgba(186, 162, 120, 1) 0%, rgba(199, 172, 122, 1) 32%, rgba(196, 168, 115, 1) 61%, rgba(251, 223, 147, 1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(186, 162, 120, 1)), color-stop(32%, rgba(199, 172, 122, 1)), color-stop(61%, rgba(196, 168, 115, 1)), color-stop(100%, rgba(251, 223, 147, 1)));
-    background: -webkit-linear-gradient(top, rgba(186, 162, 120, 1) 0%, rgba(199, 172, 122, 1) 32%, rgba(196, 168, 115, 1) 61%, rgba(251, 223, 147, 1) 100%);
-    background: -o-linear-gradient(top, rgba(186, 162, 120, 1) 0%, rgba(199, 172, 122, 1) 32%, rgba(196, 168, 115, 1) 61%, rgba(251, 223, 147, 1) 100%);
-    background: -ms-linear-gradient(top, rgba(186, 162, 120, 1) 0%, rgba(199, 172, 122, 1) 32%, rgba(196, 168, 115, 1) 61%, rgba(251, 223, 147, 1) 100%);
-    background: linear-gradient(to bottom, rgba(186, 162, 120, 1) 0%, rgba(199, 172, 122, 1) 32%, rgba(196, 168, 115, 1) 61%, rgba(251, 223, 147, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#baa278', endColorstr='#fbdf93', GradientType=0);
-    border:2px solid black;
-    position:absolute;
-    top:0px;
-    left:0px;
+background: rgba(255,191,0,0.05);
+background: -moz-linear-gradient(left, rgba(255,191,0,0.05) 0%, rgba(255,191,0,0.05) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,191,0,0.05)), color-stop(100%, rgba(255,191,0,0.05)));
+background: -webkit-linear-gradient(left, rgba(255,191,0,0.05) 0%, rgba(255,191,0,0.05) 100%);
+background: -o-linear-gradient(left, rgba(255,191,0,0.05) 0%, rgba(255,191,0,0.05) 100%);
+background: -ms-linear-gradient(left, rgba(255,191,0,0.05) 0%, rgba(255,191,0,0.05) 100%);
+background: linear-gradient(to right, rgba(255,191,0,0.05) 0%, rgba(255,191,0,0.05) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbf00', endColorstr='#ffbf00', GradientType=1 );
 }
 #Arabalar{
     width:1000px;
     height:80px;
     position: absolute;
-    top:15px;
+    top:5px;
     left:0px;
 }
 #araba1 {
     width:165px;
-    height:68px;
-    background:url(http://i.hizliresim.com/d4VdXp.png);
+    height:85px;
+    background:url(http://i.hizliresim.com/X2VqG0.png);
     position:absolute;
     top:0px;
-    left:0px;
+    left:5px;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -126,19 +146,19 @@ box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
 }
 #araba1:hover {
     width:165px;
-    height:68px;
-    background:url(http://i.hizliresim.com/d4VdXp.png) repeat 165px;
+    height:85px;
+    background:url(http://i.hizliresim.com/X2VqG0.png) repeat 165px;
     -webkit-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
 }
 #araba2 {
     width:165px;
-    height:68px;
-    background:url(http://i.hizliresim.com/bQoXym.png);
+    height:85px;
+    background:url(http://i.hizliresim.com/Q1DY5v.png);
     position:absolute;
     top:0px;
-    left:200px;
+    left:205px;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -147,19 +167,19 @@ box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
 }
 #araba2:hover {
     width:165px;
-    height:68px;
-    background:url(http://i.hizliresim.com/bQoXym.png) repeat 165px;
+    height:85px;
+    background:url(http://i.hizliresim.com/Q1DY5v.png) repeat 165px;
     -webkit-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
 }
 #araba3 {
     width:165px;
-    height:68px;
-    background:url(http://i.hizliresim.com/X2z1d5.png);
+    height:85px;
+    background:url(http://i.hizliresim.com/M9NgQk.png);
     position:absolute;
     top:0px;
-    left:400px;
+    left:405px;
     -webkit-transition: all 0.s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -168,8 +188,8 @@ box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
 }
 #araba3:hover {
     width:165px;
-    height:68px;
-    background:url(http://i.hizliresim.com/X2z1d5.png) repeat 165px;
+    height:85px;
+    background:url(http://i.hizliresim.com/M9NgQk.png) repeat 165px;
     -webkit-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.75);
@@ -177,8 +197,9 @@ box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
 
 #arabaSpecial{
     width:165px;
-    height:68px;
-    background:url(http://i.hizliresim.com/rYln67.png);
+    height:85px;
+    background:url(http://i.hizliresim.com/rYln67.png) no-repeat;
+	background-position:3px 9px;
 	background-color: #b1b1b1;
      position:absolute;
     top:0px;
@@ -190,13 +211,17 @@ box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
     transition: all 0.2s ease-in-out;
 }
 #arabaSpecial:hover{
+-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
    -webkit-box-shadow: inset 0px 0px 16px 1px rgba(0,0,0,0.75);
 -moz-box-shadow: inset 0px 0px 16px 1px rgba(0,0,0,0.75);
 box-shadow: inset 0px 0px 16px 1px rgba(0,0,0,0.75);
 }
 #engel {
-    width:50px;
-    height:50px;
+    width:25px;
+    height:25px;
      background:#870000;
     position:absolute;
     top:100px;
@@ -217,7 +242,7 @@ box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
     width:400px;
     height:300px;
     background: green;
-    border:2px solid red;
+    border:2px solid white;
     position:absolute;
     top: 100px;
     left:250px;
@@ -253,7 +278,6 @@ box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
     top:0px;
     left:0px;
     border:1px solid black;
-    
 }
 #karart{
     display:none;
@@ -286,7 +310,7 @@ box-shadow: inset 0px 0px 16px 8px rgba(0,0,0,0.75);
     height:200px;
         position:absolute;
     top:0px;
-    left:0px;
+    left:15px;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -395,6 +419,7 @@ background-position: -700px 520px;
     border:2px solid white;
     position:absolute;
     top:450px;
+	left:18px;
 }
 
 .oyuncuBorder{
@@ -436,7 +461,7 @@ left:0px;
 height: 15px;
 position: absolute;
 top: 402px;
-left: 0px;
+left: 18px;
 border: 2px solid rgb(146, 45, 40);
 background: rgba(239,197,202,1);
 background: -moz-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(209,164,75,1) 17%, rgba(250,167,65,1) 70%, rgba(209,164,75,1) 91%, rgba(241,142,153,1) 100%);
@@ -446,13 +471,17 @@ background: -o-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(209,164,75,1) 
 background: -ms-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(209,164,75,1) 17%, rgba(250,167,65,1) 70%, rgba(209,164,75,1) 91%, rgba(241,142,153,1) 100%);
 background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(209,164,75,1) 17%, rgba(250,167,65,1) 70%, rgba(209,164,75,1) 91%, rgba(241,142,153,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99', GradientType=1 );
-border-radius: 0px 0px 38px 38px;
--moz-border-radius: 0px 0px 38px 38px;
--webkit-border-radius: 0px 0px 38px 38px;
+border-radius: 0px 0px 10px 10px;
+-moz-border-radius: 0px 0px 10px 10px;
+-webkit-border-radius: 0px 0px 10px 10px;
+-webkit-box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.43);
+-moz-box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.43);
+box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.43);
+
 }
 #sliderPo{
-  width: 15px;
-height: 14px;
+  width: 22px;
+height: 11px;
 background: rgb(255, 247, 247);
 position: absolute;
 border: 2px solid #7C7777;
@@ -468,9 +497,21 @@ box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
 #container{
 width: 600px;
 height: 100px;
-border: 2px solid black;
+border: 2px solid rgb(146, 45, 40);
 position: absolute;
 top: 300px;
-left: 0px;
+left: 18px;
 overflow: hidden;
+border-radius: 10px 10px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+}
+
+#logo{
+width:400px;
+height:200px;
+position:absolute;
+top:390px;
+left:350px;
+background:url(http://i.hizliresim.com/d4QGAV.png);
 }
